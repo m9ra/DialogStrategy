@@ -1,0 +1,18 @@
+C:\Projekty\DIPLOMOVÁ PRÁCE\repository\documents\DialogStrategy\DialogStrategy\bin\Debug\DialogStrategy.exe.config
+C:\Projekty\DIPLOMOVÁ PRÁCE\repository\documents\DialogStrategy\DialogStrategy\bin\Debug\DialogStrategy.exe
+C:\Projekty\DIPLOMOVÁ PRÁCE\repository\documents\DialogStrategy\DialogStrategy\bin\Debug\DialogStrategy.pdb
+C:\Projekty\DIPLOMOVÁ PRÁCE\repository\documents\DialogStrategy\DialogStrategy\obj\Debug\DialogStrategy.csprojResolveAssemblyReference.cache
+C:\Projekty\DIPLOMOVÁ PRÁCE\repository\documents\DialogStrategy\DialogStrategy\obj\Debug\DialogStrategy.exe
+C:\Projekty\DIPLOMOVÁ PRÁCE\repository\documents\DialogStrategy\DialogStrategy\obj\Debug\DialogStrategy.pdb
+C:\Users\m9ra\Documents\Visual Studio 2012\Projects\DialogStrategy\DialogStrategy\bin\Debug\DialogStrategy.exe.config
+C:\Users\m9ra\Documents\Visual Studio 2012\Projects\DialogStrategy\DialogStrategy\obj\Debug\DialogStrategy.exe
+C:\Users\m9ra\Documents\Visual Studio 2012\Projects\DialogStrategy\DialogStrategy\obj\Debug\DialogStrategy.pdb
+C:\Users\m9ra\Documents\Visual Studio 2012\Projects\DialogStrategy\DialogStrategy\obj\Debug\DialogStrategy.csprojResolveAssemblyReference.cache
+C:\Users\m9ra\Documents\Visual Studio 2012\Projects\DialogStrategy\DialogStrategy\bin\Debug\DialogStrategy.exe
+C:\Users\m9ra\Documents\Visual Studio 2012\Projects\DialogStrategy\DialogStrategy\bin\Debug\DialogStrategy.pdb
+C:\Users\m9ra\Disk Google\Projekty\MFF\Ph.D. studium\Výzkum\DialogStrategy\DialogStrategy\bin\Debug\DialogStrategy.exe.config
+C:\Users\m9ra\Disk Google\Projekty\MFF\Ph.D. studium\Výzkum\DialogStrategy\DialogStrategy\obj\Debug\DialogStrategy.exe
+C:\Users\m9ra\Disk Google\Projekty\MFF\Ph.D. studium\Výzkum\DialogStrategy\DialogStrategy\obj\Debug\DialogStrategy.pdb
+C:\Users\m9ra\Disk Google\Projekty\MFF\Ph.D. studium\Výzkum\DialogStrategy\DialogStrategy\obj\Debug\DialogStrategy.csprojResolveAssemblyReference.cache
+C:\Users\m9ra\Disk Google\Projekty\MFF\Ph.D. studium\Výzkum\DialogStrategy\DialogStrategy\bin\Debug\DialogStrategy.exe
+C:\Users\m9ra\Disk Google\Projekty\MFF\Ph.D. studium\Výzkum\DialogStrategy\DialogStrategy\bin\Debug\DialogStrategy.pdb

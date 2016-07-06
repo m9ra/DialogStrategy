@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F2627B1-9066-462D-89EC-70DE6CF11263}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DialogStrategy</RootNamespace>
+    <AssemblyName>DialogStrategy</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Computation\ActionContext.cs" />
+    <Compile Include="Computation\Actions\InformAction.cs" />
+    <Compile Include="Computation\ConditionBase.cs" />
+    <Compile Include="Computation\Condition\EdgeOperator.cs" />
+    <Compile Include="Computation\Condition\MatchResult.cs" />
+    <Compile Include="Computation\Condition\NodeCriterion.cs" />
+    <Compile Include="Computation\Condition\OperatorCondition.cs" />
+    <Compile Include="Computation\Condition\PatternCondition.cs" />
+    <Compile Include="Computation\Condition\PatternConditionBuilder.cs" />
+    <Compile Include="Computation\Condition\PatternNode.cs" />
+    <Compile Include="Computation\Model\ActionNode.cs" />
+    <Compile Include="Computation\Model\Executor.cs" />
+    <Compile Include="Computation\Model\InformActionNode.cs" />
+    <Compile Include="Computation\Model\NodeAlternatives.cs" />
+    <Compile Include="Computation\Model\NodeRestriction.cs" />
+    <Compile Include="Computation\Model\PatternContext.cs" />
+    <Compile Include="Computation\Model\Strategy.cs" />
+    <Compile Include="Computation\NodesSubstitution.cs" />
+    <Compile Include="Computation\PatternActionBase.cs" />
+    <Compile Include="DialogExtensions.cs" />
+    <Compile Include="Examples\MultiDialogLayer.cs" />
+    <Compile Include="Examples\MultiTurnDialogManager.cs" />
+    <Compile Include="Examples\DialogManagerBase.cs" />
+    <Compile Include="Dialog\Utterances.cs" />
+    <Compile Include="Examples\AlgebraGenerator.cs" />
+    <Compile Include="Examples\AlgebraLayer.cs" />
+    <Compile Include="Examples\AlgebraUtilities.cs" />
+    <Compile Include="Examples\AlgebraVisitor.cs" />
+    <Compile Include="Examples\DialogLayer.cs" />
+    <Compile Include="Examples\SingleTurnDialogManager.cs" />
+    <Compile Include="Examples\Graphs.cs" />
+    <Compile Include="Examples\NumberGenerator.cs" />
+    <Compile Include="Examples\OperatorInstanceGenerator.cs" />
+    <Compile Include="Examples\SimpleTransformer.cs" />
+    <Compile Include="Examples\Strategies.cs" />
+    <Compile Include="Dialog\ConsoleDialogProvider.cs" />
+    <Compile Include="Knowledge\ComposedGraph.cs" />
+    <Compile Include="Knowledge\GeneratedLayer.cs" />
+    <Compile Include="Knowledge\Graph.cs" />
+    <Compile Include="Knowledge\KnowledgePath.cs" />
+    <Compile Include="Knowledge\NodeGenerator.cs" />
+    <Compile Include="Knowledge\NodeIterator.cs" />
+    <Compile Include="Knowledge\GraphLayerBase.cs" />
+    <Compile Include="Knowledge\Node.cs" />
+    <Compile Include="Knowledge\NodeReference.cs" />
+    <Compile Include="Learning\AnotatedData.cs" />
+    <Compile Include="Learning\ClassifierBuilder.cs" />
+    <Compile Include="Learning\ConditionalFunction.cs" />
+    <Compile Include="Learning\AnotatedData2.cs" />
+    <Compile Include="Learning\DataPattern.cs" />
+    <Compile Include="Learning\FunctionTransformationBase.cs" />
+    <Compile Include="Learning\InformInstruction.cs" />
+    <Compile Include="Learning\InstructionBase.cs" />
+    <Compile Include="Computation\Model\KnowledgePattern.cs" />
+    <Compile Include="Learning\OperatorClassifier.cs" />
+    <Compile Include="Learning\PathCounting.cs" />
+    <Compile Include="Learning\PatternGraph.cs" />
+    <Compile Include="Learning\PatternNodeOperator.cs" />
+    <Compile Include="Learning\ResultGroup.cs" />
+    <Compile Include="Learning\ResultGroups.cs" />
+    <Compile Include="Learning\TBL.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
